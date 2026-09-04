@@ -1,6 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Virtual environments
 .venv/
 .venv-1/
-__pycache__/
-*.pyc
-.streamlit/
+venv/
+env/
+ENV/
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Uploaded resumes / PDFs
 *.pdf
+
+# Temporary files
+tempCodeRunnerFile.py
+
+# Testing / caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
